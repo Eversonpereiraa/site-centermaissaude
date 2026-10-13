@@ -1,0 +1,47 @@
+:root {
+  /* Cores: partem do logo da clínica (azul-índigo e azul) e do ambiente real (ondas azuis, bege, dourado) */
+  --indigo: #322680;
+  --indigo-900: #1f1750;
+  --blue: #016dab;
+  --blue-700: #015a8e;
+  --sky: #8fc1de;
+  --sky-100: #e3f0f8;
+  --sand: #f3ece2;
+  --sand-200: #e8dfd1;
+  --gold: #b8964a; /* só detalhe decorativo, nunca texto */
+  --bg: #f7fafc;
+  --white: #ffffff;
+  --ink: #1b1b2f;
+  --ink-soft: #4a4a63;
+  --line: #dde3ea;
+  --pending-bg: #fff4d6;
+  --pending-ink: #6b4a00;
+
+  /* Tipografia */
+  --font-display: 'Outfit Variable', 'Outfit', system-ui, sans-serif;
+  --font-body: 'Figtree Variable', 'Figtree', system-ui, sans-serif;
+  --fs--1: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --fs-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --fs-1: clamp(1.125rem, 1.07rem + 0.25vw, 1.25rem);
+  --fs-2: clamp(1.375rem, 1.25rem + 0.6vw, 1.75rem);
+  --fs-3: clamp(1.75rem, 1.4rem + 1.5vw, 2.5rem);
+  --fs-4: clamp(2.25rem, 1.5rem + 3.4vw, 4rem);
+
+  /* Espaçamento (escala 4/8/16/32/64/96) */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 1rem;
+  --s-4: 2rem;
+  --s-5: 4rem;
+  --s-6: 6rem;
+  --gutter: clamp(1rem, 4vw, 2rem);
+
+  /* Raios e sombras */
+  --r-s: 12px;
+  --r-m: 24px;
+  --r-l: 48px;
+  --shadow: 0 1px 2px rgba(27, 27, 47, 0.06), 0 12px 28px -14px rgba(27, 27, 47, 0.22);
+
+  --container: 1200px;
+  --header-h: 72px;
+}
